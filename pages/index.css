@@ -239,7 +239,8 @@ span {
 }
 
 .reservation__title {
-  margin: 100px auto 80px auto;
+  margin: 0 auto 80px auto;
+  padding-top: 100px;
   text-align: center;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
