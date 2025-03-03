@@ -239,6 +239,7 @@ span {
 }
 
 .reservation__title {
+  margin: auto;
   padding-top: 100px;
   padding-bottom: 80px;
   text-align: center;
