@@ -15,7 +15,7 @@
   height: 39px;
 }
 
-.nav__link {
+.nav__links {
   width: 100vw;
   margin: 0 0;
   display: flex;
@@ -29,6 +29,6 @@
   line-height: 20px;
 }
 
-.nav__link-item:hover {
+.nav__links-item:hover {
   color: #2f80ed;
 }
