@@ -28,15 +28,13 @@
             alt="Logotipo de la Biblioteca Triple Peaks"
             class="nav__logo"
           />
-          <ul class="nav__links">
-            <li class="nav__links-item">
-              <a href="#recipes">Recetas</a>
-            </li>
-            <li class="nav__links-item">
-              <a href="#reservation">Reservar una mesa</a>
-            </li>
-            <li class="nav__links-item"><a href="#contact">Contactos</a></li>
-          </ul>
+          <div class="nav__menu">
+            <a class="nav__links" href="#recipes" target="_self">Recetas</a>
+            <a class="nav__links" href="#reservation" target="_self"
+              >Reservar una mesa</a
+            >
+            <a class="nav__links" href="#contact" target="_self">Contactos</a>
+          </div>
         </nav>
         <h1 class="header__title">
           <span class="header__title header__title_span-accent"
@@ -208,7 +206,9 @@
               </li>
             </ul>
           </div>
-          <div class="footer__copyright">&#169; 2025 Patricia Higuera</div>
+          <div class="footer__copyright">
+            <p class="footer__author">&#169; 2025 Patricia Higuera</p>
+          </div>
         </section>
       </footer>
     </div>
