@@ -1,10 +1,16 @@
 .footer {
+  width: 100vw;
+  min-width: 1100px;
+  max-width: 1600px;
   background-color: #0a2850;
 }
 
 .footer__content {
   z-index: 0;
   width: 100vw;
+  /*  width: calc(100% - 160px);*/
+  min-width: 1100px;
+  max-width: 1600px;
   height: 100vh;
   max-height: 388px;
 }
@@ -16,8 +22,10 @@
   position: relative;
   top: -188px;
   left: -44px;
-  width: 340px;
-  height: 340px;
+  width: calc(100%);
+  max-width: 340px;
+  height: calc(100%);
+  max-height: 340px;
 }
 
 .footer__logo {
@@ -30,12 +38,14 @@
 }
 
 .footer__social {
+  width: calc(100% - 160px);
+  min-width: 1100px;
+  max-width: 1440px;
   color: white;
   z-index: 1;
   position: relative;
   top: -388px;
   left: 80px;
-  width: calc(100% - 160px);
   text-align: right;
 }
 
@@ -82,6 +92,9 @@
 }
 
 .footer__copyright {
+  width: calc(100% - 160px);
+  min-width: 1100px;
+  max-width: 1440px;
   color: white;
   font-family: "Inter", Arial, sans-serif;
   font-weight: normal;
@@ -93,5 +106,4 @@
   position: relative;
   top: -340px;
   left: 80px;
-  width: calc(100% - 160px);
 }
